@@ -10,16 +10,16 @@
 
 .mypic
 { /*  this is how I styled and placed my top green banner in the center */
-	width:100%;
+	/*width:100%;*/
 	text-align: center;
-	padding-left: 5px;
+	/*padding-left: 5px;*/
 	font: sans-serif;
 }
 
 .container
 {
-    margin: 16px;
-		background-color: #999999;
+    margin: 0px;
+		background-color: white;
 }
 
 h2
