@@ -1,41 +1,42 @@
-*{
-	margin: 0;
-	padding:0;
-
-}
-
-.header { /* this is how I placed the picture in the centre of my header banner  */
+.header
+{ /* this is how I placed the picture in the centre of my header banner  */
 	float: center;
-
 }
 
 
 
-h1{ /*  this is how I styled and placed my top green banner in the center */
-
+h1
+{ /*  this is how I styled and placed my top green banner in the center */
 	background-color: white;
 	text-align: center;
-
 	font: sans-serif;
-
 }
 
 
 
-h2 { /*  this I style the Title of the content of every page*/
+h2
+{ /*  this I style the Title of the content of every page*/
 	font: arial black;
 	padding-top: 10px;
 }
 
+
+
 h2:after /* this is how I styled the straight line underneath the title of every page*/
-	{content: ' ';
+	{
+		content: ' ';
 	display:block;
 	border:2px solid green;
 	border-bottom: 1px solid black;
-
 	}
+
+
 
 @media screen and (max-width : 320px) {
 ul {
         display: none;
 }
+
+
+
+.justify-content-center
