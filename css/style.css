@@ -4,12 +4,6 @@
 
 }
 
-body {
-	margin:0;
-	padding:0;
-
-}
-
 .header { /* this is how I placed the picture in the centre of my header banner  */
 	float: center;
 
@@ -18,15 +12,21 @@ body {
 
 
 h1{ /*  this is how I styled and placed my top green banner in the center */
-	width:100%;
-	background-color: #399077;
+
+	background-color: white;
 	text-align: center;
-	padding: 0px 0;
+
 	font: sans-serif;
 
-
-
 }
+
+
+
+h2 { /*  this I style the Title of the content of every page*/
+	font: arial black;
+	padding-top: 10px;
+}
+
 h2:after /* this is how I styled the straight line underneath the title of every page*/
 	{content: ' ';
 	display:block;
@@ -35,122 +35,7 @@ h2:after /* this is how I styled the straight line underneath the title of every
 
 	}
 
-h2 { /*  this I style the Title of the content of every page*/
-	font: arial black;
-	padding-top: 10px;
-}
-
-
-a{
-	text-decoration: none;
-	color: inherit;
-}
-
-
-#nav { /* this is how I put a green background in my drop down navigation menu */
-		float: center;
-        background: #43a286;
-}
-
-#nav ul {
-        list-style-type: none;
-		float: center;
-
-}
-
-#nav li { /* this is how I created my horizontal navigation */
-        display: inline-block;
-        border-right: solid 1px grey;
-        padding-top: 10px;
-        text-align: center;
-		border-bottom: solid 1px #c6c7ca;
-}
-
-#nav li:last-child { /* this I show I designed the last drop down option menu in the web page called */
-        border-right: none;
-        margin-right: 10px;
-}
-
-#nav a {
-        display: block;
-        color: white;
-        text-decoration: none;
-        padding: 10px 30px;
-		    float: center;
-}
-
-#nav a:hover {
-        color: #c6c7ca;
-        text-shadow: none;
-}
-
-/*section{
-	line-height: 1.5em;
-	font-size: 0.9em;
-	padding: 40px;
-	width: 75%;
-	margin: 0 auto;
-
-}*/
-
-
-	/*wont be displayed unless needed*/
-.show-menu { /* this is how i styled the menu navigation bar */
-	background: #005c48;
-	text-align: left;
-	box-sizing: border-box;
-	padding: 10px 10px;
-	cursor: pointer;
-	color: white;
-	width:100%;
-	display:none;
-	text-align:center;
-	float: left;
-}
-
-
-
-/*This codes helps hides checkbox*/
-input[type=checkbox] {
-        display: none;
-}
-
-/*These shows menu when the subtle checkbox is checked*/
-input[type=checkbox]:checked ~ #nav {
-        display: block;
-}
-
-/*This is my design for my responsive Styles*/
-@media screen and (max-width : 420px) {
+@media screen and (max-width : 320px) {
 ul {
         display: none;
-}
-
-
-/*This shows the menu button*/
-.show-menu {
-        display: block;
-}
-
-ul {
-		display: none;
-		padding-top: 30px;
-
-	}
-
-	#nav ul li {
-		float: none;
-		border-bottom: black;
-	}
-
-
-	div.nav ul li: last-child {
-		border-bottom: black;
-	}
-
-	#nav li {
-        display: block;
-        border-right: solid 1px #c6c7ca;
-        padding-top: 10px;
-        text-align: center;
 }
